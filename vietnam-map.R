@@ -8,7 +8,7 @@
 load("VNM_adm2.RData")
 
 # Gọi thư viện cần thiết
-libs <- c("maptools", "sp")
+libs <- c("rgeos", "maptools", "sp")
 lapply(libs, require, character.only = TRUE)
 
 # Nhóm và sáp nhập tỉnh
